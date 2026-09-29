@@ -1,0 +1,26 @@
+{
+  "name": "teddy-rulex-mr-khan-whatsapp-server",
+  "version": "2.0.0",
+  "description": "TEDDY RULEX MR KHAN — WhatsApp Automation Server with Voice Note, Backup Auto-Switch & Multi-Module Loops",
+  "main": "index.js",
+  "author": "WALEED KHAN",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "multer": "^1.4.5-lts.1",
+    "pino": "^8.21.0",
+    "chalk": "^4.1.2",
+    "node-edge-tts": "^1.0.9",
+    "fluent-ffmpeg": "^2.1.3",
+    "ffmpeg-static": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
